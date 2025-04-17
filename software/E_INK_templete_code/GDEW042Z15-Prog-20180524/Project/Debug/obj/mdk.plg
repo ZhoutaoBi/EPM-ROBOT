@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\DUAN\≤‚ ‘∞Ê&DEMO∞Â\GDEW042Z15\GDEW042Z15≥Ã–Ú æ¿˝\Project\mdk.uvproj
+Project File Date:  03/21/2016
+
+<h2>Output:</h2>
+Build target 'mdk'
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling misc.c...
+compiling stm32f10x_iwdg.c...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling stm32f10x_it.c...
+compiling main.c...
+..\User\main.c(4012): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=5548 RO-data=60548 RW-data=24 ZI-data=1632  
+FromELF: creating hex file...
+User command #1: C:\keil\ARM\BIN40\fromelf.exe --bin --output  Debug/obj/T64.bin  Debug/obj/mdk.axf
+".\Debug\obj\mdk.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\DUAN\\≤‚ ‘∞Ê&DEMO∞Â\\GDEW042Z15\\GDEW042Z15≥Ã–Ú æ¿˝\\Project\\Debug\\obj\\mdk.AXF" 
+* JLink Info: Device "STM32F103VB" selected (128 KB flash, 20 KB RAM).
+Set JLink Project File to "E:\DUAN\≤‚ ‘∞Ê&DEMO∞Â\GDEW042Z15\GDEW042Z15≥Ã–Ú æ¿˝\Project\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.35b, compiled Sep  2 2011 18:34:46
+Firmware: J-Link V9 compiled Feb 20 2015 09:20:19
+Hardware: V9.20
+Feature(s) : GDB, RDI, FlashBP, FlashDL, JFlash 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103VB
+VTarget = 3.272V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
